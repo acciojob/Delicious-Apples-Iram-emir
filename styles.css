@@ -1,1 +1,88 @@
-/* your code here */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+.product {
+  display: flex;
+}
+
+.photo-container {
+  flex: 1;
+}
+
+.photo-main img {
+  width: 100%;
+}
+
+.photo-album {
+  margin-top: 10px;
+}
+
+.photo-album ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.photo-album ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.details {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.variant ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.variant ul li {
+  margin-bottom: 10px;
+}
+
+.variant ul li img {
+  width: 30px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.description {
+  margin-top: 20px;
+}
+
+.price {
+  margin-top: 20px;
+}
+
+.add-to-cart {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.add-to-cart button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-to-cart button:hover {
+  background-color: #0056b3;
+}
+
